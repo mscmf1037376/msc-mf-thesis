@@ -1,0 +1,19 @@
+{
+    "description": "Long only sector etfs",
+    "dataset_type": "real",
+    "dataset_name": "etf_historical_data_monthly_with_cash.xlsx",
+    "use_features": true,
+    "train_length": 36,
+    "validation_length": 1,
+    "test_length": 36,
+    "num_epochs": 10,
+    "num_train_paths": 10,
+    "num_validation_paths": 0,
+    "num_test_paths": 10,
+    "horizon": 36,
+    "target_wealth": 1.80,
+    "initial_wealth": 1.0,
+    "expected_block_size": 6,
+    "lr": 0.1,
+    "loss_function": "forsyth_li_regularized_loss"
+}

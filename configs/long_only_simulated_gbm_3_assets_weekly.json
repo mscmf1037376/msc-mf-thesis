@@ -1,0 +1,19 @@
+{
+  "description": "Three uncorrelated GBMs with weekly frequency",
+  "dataset_type": "synthetic",
+  "dataset_name": "simulated_gbm_three_assets_weekly.xlsx",
+  "use_features": true,
+  "train_length": 200,
+  "validation_length": 25,
+  "test_length": 60,
+  "num_epochs": 30,
+  "num_train_paths": 2500,
+  "num_validation_paths": 0,
+  "num_test_paths": 10000,
+  "horizon": 52,
+  "target_wealth": 1.20,
+  "initial_wealth": 1.0,
+  "expected_block_size": 1,
+  "lr": 3e-1,
+  "loss_function": "max_loss"
+}

@@ -1,0 +1,22 @@
+{
+    "description": "Test Configuration",
+    "dataset_type": "real",
+    "dataset_name": "etf_XLY_XLP_XLE_XLU_cash_and_features_weekly.xlsx",
+    "train_length": 100,
+    "validation_length": 30,
+    "test_length": 25,
+    "min_num_epochs": 8,
+    "max_num_epochs": 15,
+    "num_train_paths": 5000,
+    "num_validation_paths": 5000,
+    "num_test_paths": 10000,
+    "horizon": 25,
+    "target_wealth": 1.30,
+    "initial_wealth": 1.0,
+    "expected_block_size_train": 3,
+    "expected_block_size_test": 3,
+    "initial_learning_rate": 1e-1,
+    "loss_function": "forsyth_li_regularized_loss",
+    "control_model": "long_only_no_leverage",
+    "overlap_validation_training": true
+}

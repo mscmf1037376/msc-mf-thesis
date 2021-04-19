@@ -1,0 +1,21 @@
+{
+    "description": "Long only sector etfs",
+    "dataset_type": "synthetic",
+    "dataset_name": "simulated_gbm_two_assets.xlsx",
+    "use_features": true,
+    "train_length": 190,
+    "validation_length": 60,
+    "test_length": 30,
+    "num_epochs": 30,
+    "num_train_paths": 2000,
+    "num_validation_paths": 2,
+    "num_test_paths": 10000,
+    "horizon": 30,
+    "target_wealth": 1.05,
+    "initial_wealth": 1.0,
+    "expected_block_size": 1,
+    "optimizer": "adam",
+    "use_time_to_go_feature": true,
+    "use_current_wealth_feature": true,
+    "lr": 1e-2
+}

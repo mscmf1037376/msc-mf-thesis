@@ -1,0 +1,22 @@
+{
+    "description": "Test Configuration",
+    "dataset_type": "real",
+    "dataset_name": "etf_historical_spreads_monthly_excluding_corona.xlsx",
+    "train_length": 120,
+    "validation_length": 24,
+    "test_length": 36,
+    "min_num_epochs": 15,
+    "max_num_epochs": 30,
+    "num_train_paths": 1000,
+    "num_validation_paths": 1000,
+    "num_test_paths": 10000,
+    "horizon": 24,
+    "target_wealth": 1.6,
+    "initial_wealth": 1.0,
+    "expected_block_size_train": 3,
+    "expected_block_size_test": 3,
+    "initial_learning_rate": 1e-1,
+    "loss_function": "forsyth_li_regularized_loss",
+    "control_model": "long_short_no_leverage",
+    "overlap_validation_training": true
+}

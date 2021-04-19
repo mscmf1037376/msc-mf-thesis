@@ -1,0 +1,21 @@
+{
+    "description": "Long only with horizon 6 months, one asset increasing and one decreasing with 5% return rate",
+    "dataset_type": "synthetic",
+    "dataset_name": "synthetic_dataset_two_assets.xlsx",
+    "use_features": true,
+    "train_length": 36,
+    "validation_length": 12,
+    "test_length": 12,
+    "num_epochs": 25,
+    "num_train_paths": 10000,
+    "num_validation_paths": 5000,
+    "num_test_paths": 10000,
+    "horizon": 6,
+    "target_wealth": 1.2,
+    "initial_wealth": 1.0,
+    "expected_block_size": 1,
+    "optimizer": "adam",
+    "use_time_to_go_feature": true,
+    "use_current_wealth_feature": true,
+    "lr": 1e-1
+}

@@ -1,0 +1,19 @@
+{
+    "description": "Three uncorrelated GBMs and one cash asset",
+    "dataset_type": "synthetic",
+    "dataset_name": "simulated_gbm_three_assets_and_cash.xlsx",
+    "loss_function": "biquadratic_regularized_loss",
+    "use_features": true,
+    "train_length": 1000,
+    "validation_length": 250,
+    "test_length": 250,
+    "num_epochs": 15,
+    "num_train_paths": 5000,
+    "num_validation_paths": 0,
+    "num_test_paths": 10000,
+    "horizon": 90,
+    "target_wealth": 1.04,
+    "initial_wealth": 1.0,
+    "expected_block_size": 1,
+    "lr": 2e-1
+}

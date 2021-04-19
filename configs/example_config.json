@@ -1,0 +1,19 @@
+{
+    "description": "Long only with horizon 12 months, using real monthly data for sector ETFs",
+    "dataset_type": "real",
+    "dataset_name": "etf_historical_data_monthly_features.xlsx",
+    "use_features": true,
+    "train_length": 48,
+    "validation_length": 12,
+    "test_length": 12,
+    "num_epochs": 15,
+    "num_train_paths": 50000,
+    "num_validation_paths": 0,
+    "num_test_paths": 10000,
+    "horizon": 12,
+    "target_wealth": 1.2,
+    "initial_wealth": 1.0,
+    "expected_block_size": 1,
+    "lr": 1e-2,
+    "loss_function": "forsyth_li_regularized_loss"
+}
